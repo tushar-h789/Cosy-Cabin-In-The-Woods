@@ -20,7 +20,7 @@
 }
 
 body {
-  width: 1320px;
+  width: 1440px;
   background-image: url("image/nav-bg.png");
   margin: 0 auto;
   /* font-family: "Switzer", sans-serif; */
@@ -398,8 +398,13 @@ nav ul li a {
 /* Sign Up Section End */
 
 /* Wilderness section start */
+
+.peaceful-section{
+  width: 1440px;
+  background: #ffffff;
+  position: absolute;
+}
 .experience {
-  background-color: #ffffff;
   padding: 70px 140px;
 }
 
@@ -436,35 +441,29 @@ nav ul li a {
   /* margin-left: 140px; */
   margin-top: 172px;
 }
-/* 
-.peaceful-img {
-  position: absolute;
-} */
 
 .peaceful-image-part{
-  position: absolute;
+  position: relative;
 }
 
-.peaceful-text-box {
-  position: relative;
-  top: 50%;
-  /* left: 30%; */
-  /* transform: translate(-50%, -50%); */
+.peaceful-text-box{
+  position: absolute;
+  width: 426px;
+  margin-left: 54px;
+  top: 79%;
+  left: 40%;
+  transform: translate(-50%, -50%);
   padding: 8px 12px;
-  text-transform: capitalize;
   background-color: #ffffff;
   background-image: linear-gradient(180deg, rgba(251, 251, 251, 0%), rgba(255, 255, 255, ));
   opacity: 0.8;
-  
-  top: 80%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  text-transform: capitalize;
-  width: 100%; /* Adjust to control the text width */
-  
 }
 
-.peaceful-text h2 {
+.peaceful-image-part img{
+  margin-left: 120px;
+}
+
+.peaceful-text-box h2 {
   font-family: "Switzer";
   font-size: 22px;
   color: #1b3936;
@@ -472,11 +471,37 @@ nav ul li a {
   margin-bottom: 8px;
 }
 
-.peaceful-text p {
+.peaceful-text-box p {
   font-family: "Switzer";
   font-size: 16px;
   color: #1b3936;
   margin-top: 8px;
   margin-bottom: 8px;
+}
+
+/* slider icon */
+.slider-icon{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.right-slider{
+  background-color: #1B3936;
+  font-size: 50px;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 8px;
+  text-align: center;
+}
+.left-slider{
+  background-color: #75ff69;
+  font-size: 50px;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 8px;
+  text-align: center;
 }
 /* Wilderness section end */
