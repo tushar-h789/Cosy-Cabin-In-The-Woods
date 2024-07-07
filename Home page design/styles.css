@@ -402,7 +402,6 @@ nav ul li a {
 .peaceful-section{
   width: 1440px;
   background: #ffffff;
-  position: absolute;
 }
 .experience {
   padding: 70px 140px;
@@ -482,10 +481,12 @@ nav ul li a {
 /* slider icon */
 .slider-icon{
   margin-top: 50px;
+  padding-bottom: 78px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+
 }
 
 .right-slider{
@@ -505,3 +506,42 @@ nav ul li a {
   text-align: center;
 }
 /* Wilderness section end */
+
+/* Talk section start */
+.talk-section{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  padding-top: 78px;
+  padding-bottom: 110px;
+
+}
+
+.talk-section h2{
+  width: 70%;
+  font-family: "Buska Variable";
+  font-size: 68px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.talk-section p{
+  width: 30%;
+  margin-top: 7px;
+  margin-bottom: 70px;
+  font-family: "Switzer";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.talk-section button{
+  font-family: "Switzer";
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 50%;
+
+}
+/* Talk section end */
