@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Buska Variable";
   src: url("fonts/boska/Boska-VariableItalic.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
+  /* font-weight: 100 900;
+  font-style: normal; */
 }
 
 @font-face {
@@ -16,7 +16,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -173,7 +173,12 @@ nav ul li a {
 
 .right-site {
   width: 50%;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .forest-info {
@@ -218,11 +223,16 @@ nav ul li a {
 
 .count {
   font-family: "Buska Variable", sans-serif; /* Ensure correct font usage */
-  font-weight: bold; /* Make the font bold */
   font-size: 2em; /* Set font size to extra large */
   display: flex;
   align-items: flex-end;
   color: #1b3936;
+}
+
+.count h2 {
+  font-family: "Buska Variable", sans-serif; /* Ensure correct font usage */
+  font-weight: bold;
+  font-size: 100px;
 }
 
 .forest {
@@ -283,9 +293,10 @@ nav ul li a {
   margin-top: -5px;
 }
 
-.unique-rooms-text {
+.unique-rooms-text h2 {
   font-family: "Buska Variable";
-  font-size: 48px;
+  font-size: 68px;
+  font-weight: 400;
   color: #1b3936;
 }
 
@@ -319,5 +330,153 @@ nav ul li a {
 /* Unique Rooms Section end */
 
 /* Sign Up Section Start */
+.signup {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
 
+.signup p {
+  position: absolute;
+  font-family: "Buska Variable";
+  font-size: 68px;
+  color: #ffffff;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  width: 80%; /* Adjust to control the text width */
+  text-align: center; /* Center text horizontally */
+  /* background-color: rgba(red, green, blue, alpha); */
+}
+
+.signup span {
+  color: #75ff69;
+}
+
+.signup-para {
+  position: absolute;
+  font-family: "Switzer";
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  width: 80%; /* Adjust to control the text width */
+  text-align: center; /* Center text horizontally */
+  z-index: 1;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  top: 60%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-box {
+  /* width: 80%; */
+  padding: 18px;
+  padding-right: 150px;
+}
+
+.input button {
+  font-family: "Switzer";
+  font-size: 18px;
+  padding: 14px 35px;
+  background-color: #75ff69;
+}
 /* Sign Up Section End */
+
+/* Wilderness section start */
+.experience {
+  background-color: #ffffff;
+  padding: 70px 140px;
+}
+
+.experience-text {
+  width: 100%;
+  display: flex;
+}
+
+.experience-left {
+  width: 70%;
+}
+
+.experience-left h2 {
+  font-family: "Buska Variable";
+  font-size: 68px;
+  font-weight: 400;
+}
+
+.experience-right {
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.experience-right p {
+  font-family: "Switzer";
+  font-size: 18px;
+}
+
+.Peaceful-part {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  /* margin-left: 140px; */
+  margin-top: 172px;
+}
+/* 
+.peaceful-img {
+  position: absolute;
+} */
+
+.peaceful-image-part{
+  position: absolute;
+}
+
+.peaceful-text-box {
+  position: relative;
+  top: 50%;
+  /* left: 30%; */
+  /* transform: translate(-50%, -50%); */
+  padding: 8px 12px;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, rgba(251, 251, 251, 0%), rgba(255, 255, 255, ));
+  opacity: 0.8;
+  
+  top: 80%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  width: 100%; /* Adjust to control the text width */
+  
+}
+
+.peaceful-text h2 {
+  font-family: "Switzer";
+  font-size: 22px;
+  color: #1b3936;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.peaceful-text p {
+  font-family: "Switzer";
+  font-size: 16px;
+  color: #1b3936;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+/* Wilderness section end */
