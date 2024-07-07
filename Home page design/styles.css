@@ -70,7 +70,7 @@ nav ul li a {
 .hero {
   position: relative;
   text-align: center;
-  padding: 50px 20px;
+  padding: 256px 240px;
   margin: -100px auto;
   width: 90vw;
   height: 70vw;
@@ -87,10 +87,16 @@ nav ul li a {
 
 .hero .nav-bg {
   background-image: url("image/nav-img.png");
-  width: 300px;
+  width: 570px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.hero .nav-bg .head-font{
+  font-family: "Buska Variable";
+  font-size: 232px;
+  font-weight: 400;
 }
 
 .hero .nav-bg p {
@@ -109,22 +115,25 @@ nav ul li a {
 }
 
 .hero .cabin {
-  font-family: "Buska Variable", sans-serif;
-  font-size: 8em;
+  font-family: "Buska Variable";
+  font-style: italic;
+  font-size: 262px;
   color: #75ff69;
   margin-left: 80px;
-  line-height: 1.2em;
-  margin-bottom: 20px;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   align-items: center;
   justify-content: center;
 }
 
-.hero .woods-para {
-  /* Specify styles using the "Switzer" font */
-  font-family: "Switzer", sans-serif;
-  font-size: 12px; /* Example font size */
-  font-weight: 400; /* Example font weight */
+.hero .nav-bg .woods-para {
+  font-family: "Switzer";
+  font-size: 12px; 
+  font-weight: 400;
+}
+
+.hero .in-the{
+  font-family: "Buska Variable";
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .play-btn {
@@ -142,8 +151,8 @@ nav ul li a {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s, transform 0.3s;
   position: absolute;
-  right: -30px;
-  bottom: 310px;
+  right: -40px;
+  bottom: 565px;
 }
 
 .play-btn:hover {
@@ -153,11 +162,11 @@ nav ul li a {
 
 /* forest-count part start */
 .forest-count {
-  width: 100%;
+  width: 1440px;
   background-color: #ffffff;
   display: flex;
   margin-top: 79px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 50px 20px;
   margin-left: 150px;
@@ -173,12 +182,9 @@ nav ul li a {
 
 .right-site {
   width: 50%;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-right: -100px;
 }
 
 .forest-info {
@@ -202,6 +208,7 @@ nav ul li a {
 .woods-pera {
   font-family: "Switzer", sans-serif;
   font-size: 1em;
+  width: 409px;
   color: #1b3936;
   text-align: left;
   margin-top: 20px;
@@ -256,7 +263,7 @@ nav ul li a {
   text-align: center;
   color: #75ff69;
   font-size: 24px;
-  margin-top: 233px;
+  margin-top: 76px;
   margin-bottom: 30px;
 }
 
@@ -545,3 +552,49 @@ nav ul li a {
 
 }
 /* Talk section end */
+
+/* Footer section start */
+.footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer div{
+  padding: 104px 124px;
+}
+
+.footer h2{
+  font-family: "Buska Variable";
+  font-size: 68px;
+  font-weight: 400;
+}
+
+.footer p{
+  font-family: "Switzer";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer .array{
+  display: flex;
+  justify-content: end;
+  font-size: 53px;
+  color: #678784;
+  margin-right: -50px;
+}
+
+.footer-end{
+  font-family: "Switzer";
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 58px;
+  padding: 24px ;
+  font-weight: 400;
+  color: #1B3936;
+
+}
+/* Footer section end */
