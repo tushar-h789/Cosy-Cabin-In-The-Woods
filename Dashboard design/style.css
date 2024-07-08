@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url('font/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-semibold';
+  src: url('font/Poppins-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-regular';
+  src: url('font/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-medium';
+  src: url('font/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'avenirNext-bold';
+  src: url('font/demi/AvenirNextLTPro-Bold.otf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+  
+  body {
+    width: 1440px;
+    background-image: url("image/nav-bg.png");
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #101010;
+  }
+
+  .dashboard{
+    width: 100%;
+    display: flex;
+    /* background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 20px; */
+    background-color: #101010;
+
+  }
+
+
+  /* left sitebar section start */
+  .dashboard .dashboard-left{
+    width: 20%;
+    padding: 80px 0 0 80px;
+    border-radius: 30px;
+  }
+
+  .dashboard .dashboard-left h2{
+    color: #FFFFFF;
+    font-family: 'Poppins-semibold';
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .dashboard .dashboard-left p{
+    color: #aea7a7;
+    font-family: 'Poppins-regular';
+    font-size: 18px;
+  }
+
+  .dashboard .dashboard-left .leftsite-menu{
+    margin-top: 117px;
+
+  }
+
+  .dashboard .dashboard-left .leftsite-menu h2{
+    font-family: 'Poppins-semibold';
+    font-size: 25px;
+    color: #9d9999;
+    margin-top: 30px;
+  }
+
+  /* left sitebar section end */
+
+/* middle sitebar section start */
+  .dashboard .dashboard-right{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    
+  }
+
+  .left-sitebar{
+    width: 60%;
+    border-radius: 30px 0 0 30px;
+    padding: 100px 60px ;
+
+  }
+
+  .left-sitebar h2{
+    font-family: 'Poppins-semibold';
+    font-size: 40px;
+    color: #262A41;
+  }
+
+  .left-sitebar p{
+    font-family: 'Poppins-semibold';
+    font-size: 16px;
+    color: #8b8282;
+    margin-top: 10px;
+  }
+
+  /* Expenses section start */
+  .expenses{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .expenses-img{
+    margin-top: 50px;
+  }
+
+  .today-report-header .today{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 47px;
+    border-bottom: 1px solid #8b8282;
+  }
+
+  .today-report-header h3{
+    font-family: 'avenirNext-bold';
+    font-size: 18px;
+    color: #262A41;
+  }
+
+  .today-report{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+  }
+
+  .today-report .today-report-img{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .today-report h3{
+    font-family: 'Poppins-medium';
+    font-size: 16px;
+    color: #273240;
+  }
+
+  .today-report p{
+    font-family: 'Poppins-regular';
+    font-size: 14px;
+    margin-top: 4px;
+    color: #404852;
+  }
+  /* middle sitebar section start */
+
+  /* right sitebar start */
+  .right-sitebar{
+    width: 50%;
+  }
+
+  .right-sitebar h2{
+    font-family: 'avenirNext-bold';
+    font-size: 20px;
+    color: #262A41;
+    margin-top: 112px;
+    margin-left: 50px;
+  }
+
+  .foodAndDrinks{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .money-go-header{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .money-go-header h4{
+    font-family: 'Poppins-medium';
+    font-size: 13px;
+    color: #273240;
+  }
+
+  /* make more money section */
+  .save-money{
+    /* position: relative; */
+    width: 250px;
+    background-color: #EDF0F6;
+    border-radius: 18px;
+    padding: 25px;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+
+  .save-money-img{
+    /* position: absolute; */
+    margin-top: -60px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .save-money-text h3{
+    font-family: 'Poppins-semibold';
+    font-size: 16px;
+    color: #273240;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .save-money-text p{
+    font-family: 'Poppins-regular';
+    font-size: 12px;
+    color: #404852;
+    line-height: 21px;
+  }
+
+  .save-money-text button{
+    font-family: 'Poppins-semibold';
+    width: 100%;
+    background-color: #101010;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 13px 62px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+  }
+/* right sitebar end */
